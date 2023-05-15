@@ -3,3 +3,6 @@ wget https://github.com/prometheus/node_exporter/releases/download/v1.4.0-rc.0/n
 tar -zvxf node_exporter-1.4.0-rc.0.linux-amd64.tar.gz
 cd node_exporter-1.4.0-rc.0.linux-amd64/
 nohup ./node_exporter &
+
+#node-exporter ---- 9100------prometheus-sg
+#apache-exporter----9117------prometheus-sg

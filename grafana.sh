@@ -17,3 +17,6 @@ cd /opt
 cd grafana
 cd bin
 nohup ./grafana-server &
+
+#grafan ---3000 sg
+#prometheus ---privite ip :9090
